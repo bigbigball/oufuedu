@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors FangYaFei (1120309265@qq.com)
+ * @date    2014-09-03 10:01:38
+ * @version $Id$
+ */
+/* 
+*{padding: 0;margin: 0;border: 0;list-style: none;font-family: "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;}
+*/
+a{text-decoration: none !important;}
+/*p{text-align: center;}*/
+.cf {
+    zoom: 1;
+}
+.cf:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.w-auto{background:#f6f6f6;width:100%;height:auto;overflow:hidden;}
+.topbox{height:786px; background:#f1f1f1 url("http://static-jkxy.qiniudn.com/event-html5%2Ftopbg.png") center bottom no-repeat;}
+.event-android-top{width: 929px;height: 680px;margin:0 auto;text-align: center;padding-top: 100px;}
+.event-android-top a.button{width: 253px;height: 60px;line-height: 60px;text-align: center;font-size: 24px;background: #e84608;display: block;border-radius: 6px;margin:0 auto;margin-top: 40px;}
+.envent-android-banner-one{height: 901px;background: url('http://static-jkxy.qiniudn.com/event-html5%2Fe-a-banner1.jpg') center center no-repeat;}
+.envent-android-banner-one .p1,.p2{text-align: center;}
+.envent-android-banner-one .p1{font-size: 40px;padding-top: 100px;color: #fff;}
+.envent-android-banner-one .p2{font-size: 18px;padding-top: 10px;width: 800px;margin:0 auto;color: #fff;}
+.event-android-teamVsJike{width: 970px;height: auto;overflow: hidden;margin: 0 auto;text-align: center;}
+.event-android-teamVsJike .p3{text-align: center;font-size: 30px;font-weight:normal;padding-top: 50px;color: #000;}
+.event-android-teamVsJike .p4{color: #999999;font-size: 18px;padding-top: 30px;}
+.event-android-teamVsJike a.button{width:260px;height:48px;margin:0 auto;text-align: center;font-size: 19px;background: #e84608;display: block;border-radius: 6px;line-height: 48px;margin-top: 30px;}
+.event-android-teamVsJike img{margin-top: 60px;}
+
+.event-android-stepNine{width: 987px;height:470px;margin:0 auto;background: url('http://static-jkxy.qiniudn.com/event-html5%2Fe-a-nine.jpg') 0 0 no-repeat;margin-top: 60px;margin-bottom: 0px;position: relative;}
+/*number*/
+.event-android-stepNine .number{width: 75px;height:75px;border: 3px solid #141414;border-radius: 50%;text-align: center;line-height: 77px;color: #141414;font-size: 24px;font-family: Arial;display: block;}
+/* .event-android-stepNine .number:hover{border: 3px solid #FF6600;color: #FF6600;} */
+.event-android-stepNine .number1,.number2,.number3,.number4,.number5,.number6,.number7,.number8,.number9,.number10,.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8,.text9,.text10,.day1,.day2,.day3,.day4,.day5,.day6,.day7,.day8,.day9,.day10{position: absolute;}
+.event-android-stepNine .number1{left: 46px;top: 9px;width:80px;height:80px}
+.event-android-stepNine .number2{left: 239px;top: 11px;}
+.event-android-stepNine .number3{left: 431px;top: 11px;}
+.event-android-stepNine .number4{left: 622px;
+    top: 11px;}
+.event-android-stepNine .number5{left: 813px;
+    top:11px;}
+.event-android-stepNine .number6{left: 813px;
+    top: 234px;}
+.event-android-stepNine .number7{left: 622px;
+    top: 234px;}
+.event-android-stepNine .number8{left: 431px;top: 234px;}
+.event-android-stepNine .number9{left: 239px;top: 234px;}
+.event-android-stepNine .number10{left: 46px;top: 231px;width:80px;height:80px}
+/*text*/
+.event-android-stepNine .text{text-align: center;color: #141414;font-size: 18px;}
+.event-android-stepNine .text1{left: 50px;top: 97px;}
+.event-android-stepNine .text2{left: 260px;top: 97px;}
+.event-android-stepNine .text3{left: 420px;top: 97px;}
+.event-android-stepNine .text4{
+    left: 645px;
+    top: 97px;}
+.event-android-stepNine .text5{left: 820px;
+    top: 97px;}
+.event-android-stepNine .text6{left: 835px;top: 320px;}
+.event-android-stepNine .text7{left: 630px;
+    top: 320px;}
+.event-android-stepNine .text8{left: 435px;top: 320px;}
+.event-android-stepNine .text9{left: 260px;top: 320px;}
+.event-android-stepNine .text10{left: 50px;top: 320px;}
+/*day*/
+.event-android-stepNine .day{font-size: 18px;font-family: 微软雅黑;color: #999999;}
+.event-android-stepNine .day1{left: 50px;top: 127px;}
+.event-android-stepNine .day2{left: 255px;top: 127px;}
+.event-android-stepNine .day3{left: 446px;
+    top: 127px;
+    width: 80px;}
+.event-android-stepNine .day4{left: 635px;
+    top: 127px;}
+.event-android-stepNine .day5{left: 823px;
+    top: 127px;}
+.event-android-stepNine .day6{left: 830px;
+    top: 350px;}
+.event-android-stepNine .day7{left: 640px;
+    top: 350px;}
+.event-android-stepNine .day8{left: 460px;top: 350px;}
+.event-android-stepNine .day9{left: 264px;top: 350px;}
+.event-android-stepNine .day10{left: 75px;top: 350px;}
+.event-android-stepNine .active{color: #FF6600;}
+.event-android-stepNine .active-border{color: #FF6600;border:3px solid #FF6600;}
+a.button{color: #fff !important;}
+a.button:hover{background: #f16529;}
+.ue-index-course-box{width: 920px;margin:0 auto;overflow: hidden;}
+.ue-video-list-box{width:220px;float: left;margin: 0 4px;}
+
+
+.event-android-top h1{ font-size:60px; color: #000; font-weight: normal}
+.ewmbox{ padding-bottom: 100px; text-align: center}
+
+.event-android-top span{font-size: 24px;color: #9a9a9a}
+.event-android-teamVsJike p{ color:#999; font-size: 18px;}
+.lesson-card{width:846px; margin: 0 auto; margin-top: 60px;}
+.lesson-card2{width:408px; margin: 0 auto;margin-top: 30px;}
+.lesson-card .onecard{ width:147px;height:65px;border:1px solid #ccc; float: left; text-align: center;padding: 20px;border-radius: 5px;}
+.lesson-card .onecard i{width: 32px;height:32px; display:inline-block; background: url("http://static-jkxy.qiniudn.com/event-html5%2Ficon-list.jpg") 0px 0px no-repeat}
+.lesson-card .onecard i.sf{ background-position: 0 -35px;}
+.lesson-card .onecard i.sx{ background-position: 0 -68px;}
+.lesson-card .onecard i.talk{ background-position: 0 -101px;}
+.lesson-card h3{ color: #999; font-size: 24px; margin-bottom: 30px; font-weight: normal}
+.lesson-card2 .onecard{ width:147px;height:65px;border:1px solid #ccc; float: left; text-align: center;padding: 20px;border-radius: 5px;}
+.lesson-card2 .onecard i{width: 32px;height:32px; display:inline-block; background: url("http://static-jkxy.qiniudn.com/event-html5%2Ficon-list.jpg") 0px 0px no-repeat}
+.lesson-card2 .onecard i.sf{ background-position: 0 -35px;}
+.lesson-card2 .onecard i.sx{ background-position: 0 -135px;}
+.lesson-card2 .onecard i.talk{ background-position: 0 -170px;}
+.lesson-card2 h3{ color: #999; font-size: 24px; margin-bottom: 30px; font-weight: normal}
+.mar-r30{ margin-right: 30px;}
+.mar-r40{ margin-right: 40px;}
+.mar-t60{margin-top:60px}
+
+.user-talk{width:1100px; margin-left:auto; margin-right: auto;}
+.user-talk .talk-one{  width:457px;height:296px; float: left; background:url("http://static-jkxy.qiniudn.com/event-html5%2Fline.png") 328px center no-repeat;
+    position: relative; text-align: center;
+    cursor: pointer;}
+.user-talk .talk-one .textbox{ text-align: center;width: 200px;margin:0 auto;height:269px}
+.user-talk .talk-one .textbox p{ font-size: 14px; color: #fff; line-height: 24px;margin-top: 20px}
+
+
+.user-talk .talk-one2{  width:457px;height:296px; float: left; background:url("http://static-jkxy.qiniudn.com/event-html5%2Fline.png") 20px center no-repeat;
+    position: relative; text-align: center; cursor: pointer;}
+.user-talk .talk-one2 .textbox{ text-align: center;width: 200px;margin:0 auto;height:269px;}
+.user-talk .talk-one2 .textbox p{ font-size: 14px; color: #fff; line-height: 24px;margin-top: 20px}
+.html5icon{ display: block; float: left; display: block;width:185px;height:185px; margin-top: 55px; background: url("http://static-jkxy.qiniudn.com/event-html5%2Fhtml5icon.png") center center no-repeat;}
+.textbox img{ margin-top: 117px;}
+.scaleout{
+    cursor: pointer;
+    -webkit-animation: scaleout 1.3s infinite ease-in-out;
+    animation: scaleout 1.3s infinite ease-in-out;
+}
+@-webkit-keyframes scaleout {
+    0% { -webkit-transform: scale(1.0) }
+    100% {
+        -webkit-transform: scale(1.1);
+        opacity: 0;
+    }
+}
+
+@keyframes scaleout {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    } 100% {
+          transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          opacity: 0;
+      }
+}
+.none{ display: none}
+.html5-infor{ text-align: center;
+    color: #fff;}
+.html5-infor h3{ font-size: 18px; line-height: 80px; margin-top: 50px}
+.html5-infor p{ font-size: 14px; line-height: 23px; }
+.html5-infor strong{ font-size: 30px; line-height: 60px; font-weight: normal;}
+.mart30{ margin-top: 30px}
