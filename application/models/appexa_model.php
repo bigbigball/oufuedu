@@ -2,7 +2,7 @@
 
 //留学案例模型
 
-class AppExa_Model extends CI_Model{
+class Appexa_model extends CI_Model{
 	//添加
 	public function addAppExa($data){
 		$this->db->insert('apply',$data);

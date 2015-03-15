@@ -72,7 +72,7 @@ a, div, h1, h2, h3, span, em, i {
 				<!-- top menu -->
 				<ul>
 					<li><a href="<?php echo base_url() ?>">首页</a></li>
-
+                    
 					<li><a href="<?php echo site_url().'/apply/appProcess'; ?>">留学申请</a>
 						<ul>
 							<li><a href="<?php echo site_url().'/apply/appProcess'; ?>">留学申请</a></li>
@@ -105,6 +105,7 @@ a, div, h1, h2, h3, span, em, i {
 							<li><a href="<?php echo site_url().'/about/contactUs'; ?>">联系我们</a></li>
 							<li><a href="<?php echo site_url().'/about/faq'; ?>">常见问题</a></li>
 						</ul></li>
+						<li><a href="http://bbs.oufuedu.com">论坛</a></li>
 
 				</ul>
 				<!-- /top menu -->

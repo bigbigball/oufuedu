@@ -41,11 +41,9 @@ $(function(){
 			</h2>
 			<ul>
 				<li><a href="<?php echo base_url() ?>">首页</a></li>
-<<<<<<< HEAD
-				<li><a href="#">关于我们</a></li>
-=======
+
 				<li><a href="#">留学文书</a></li>
->>>>>>> origin/master
+
 				<li>文书服务及费用</li>
 			</ul>
 		</div>
@@ -334,21 +332,17 @@ $(function(){
 				<div class="">
 					<div class="weixin">
 						<div>
-<<<<<<< HEAD
-							<img src="images/weixin.jpg" />
-=======
+
 							<img src="<?php echo base_url().'style/' ?>images/weixin.jpg" />
->>>>>>> origin/master
+
 						</div>
 						<div class="word">微信公共帐号</div>
 					</div>
 					<div class="weibo">
 						<div>
-<<<<<<< HEAD
-							<img src="images/weibo.jpg" />
-=======
+
 							<img src="<?php echo base_url().'style/' ?>images/weibo.jpg" />
->>>>>>> origin/master
+
 						</div>
 						<div class="word">微博公共帐号</div>
 					</div>

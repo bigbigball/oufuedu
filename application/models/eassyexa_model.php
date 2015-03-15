@@ -2,7 +2,7 @@
 
 //文书案例模型
 
-class EassyExa_Model extends CI_Model{
+class Eassyexa_model extends CI_Model{
 	//添加
 	public function addEassyExa($data){
 		$this->db->insert('eassy',$data);

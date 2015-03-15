@@ -2,7 +2,7 @@
 
 //留学申请资讯模型
 
-class AppTip_Model extends CI_Model{
+class Apptip_model extends CI_Model{
 	//添加
 	public function addAppTip($data){
 		$this->db->insert('applytip',$data);

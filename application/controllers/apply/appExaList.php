@@ -7,7 +7,7 @@ class AppExaList extends CI_Controller{
      */
     public function __construct() {
         parent::__construct ();
-        $this->load->model ( 'appExa_Model', 'appexa' );
+        $this->load->model ( 'appexa_model', 'appexa' );
     }
     
 	//添加控制

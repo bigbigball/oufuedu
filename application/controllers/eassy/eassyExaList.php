@@ -7,7 +7,7 @@ class EassyExaList extends CI_Controller{
      */
     public function __construct() {
         parent::__construct ();
-        $this->load->model ( 'eassyExa_Model', 'eexa' );
+        $this->load->model ( 'eassyexa_model', 'eexa' );
     }
     
 	//添加控制
