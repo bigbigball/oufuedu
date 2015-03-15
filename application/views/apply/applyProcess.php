@@ -20,27 +20,27 @@
   <div class="features_block services_option5_marg">
    <ul>
     <li class="design">
-     <a class="circle_link" href="<?php echo site_url().'/apply/appUsa'; ?>">&nbsp;</a>
+     <a class="circle_link" href="<?php echo site_url().'/apply/appCountry/appKcountry/usa'; ?>">&nbsp;</a>
      <h4><span>美国申请</span></h4> 
      <p>囊美国所有大学，提供专业的选校建议、快速网申提交、OFFER跟进、语言课申请  </p>
     </li>
     <li class="flexible">
-     <a class="circle_link" href="<?php echo site_url().'/apply/appUk'; ?>">&nbsp;</a>
+     <a class="circle_link" href="<?php echo site_url().'/apply/appCountry/appKcountry/uk'; ?>">&nbsp;</a>
      <h4><span>英国申请</span></h4>
      <p>囊括英国所有大学，提供专业的选校建议、快速网申提交、OFFER跟进、语言课申请</p>
     </li>
     <li class="support">
-     <a class="circle_link" href="<?php echo site_url().'/apply/appHk'; ?>">&nbsp;</a>
+     <a class="circle_link" href="<?php echo site_url().'/apply/appCountry/appKcountry/hk'; ?>">&nbsp;</a>
      <h4><span>香港申请</span></h4>
      <p>囊括香港所有大学，提供专业的选校建议、快速网申提交、OFFER跟进、语言课申请</p>
     </li>
     <li class="easy">
-     <a class="circle_link" href="<?php echo site_url().'/apply/appAus'; ?>">&nbsp;</a>
+     <a class="circle_link" href="<?php echo site_url().'/apply/appCountry/appKcountry/aus'; ?>">&nbsp;</a>
      <h4><span>澳洲申请</span></h4>
      <p>囊括澳洲所有大学，提供专业的选校建议、快速网申提交、OFFER跟进、语言课申请</p>
     </li>
     <li class="seo">
-     <a class="circle_link" href="<?php echo site_url().'/apply/appSingapore'; ?>">&nbsp;</a>
+     <a class="circle_link" href="<?php echo site_url().'/apply/appCountry/appKcountry/singapore'; ?>">&nbsp;</a>
      <h4><span>新加坡申请</span></h4>
      <p>囊括新加坡所有大学，提供专业的选校建议、快速网申提交、OFFER跟进、语言课申请</p>
     </li>

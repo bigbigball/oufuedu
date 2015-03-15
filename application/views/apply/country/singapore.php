@@ -39,19 +39,33 @@ $(function(){
    <h2>新加坡留学申请<span>新加坡留学申请~~~！</span></h2>
    <ul>
     <li><a href="<?php echo base_url() ?>">首页</a></li>
-    <li><a href="#">留学申请</a></li>
-    <li>新加坡留学申请</li>
+    <li><a href="<?php echo site_url().'/apply/appProcess'; ?>">留学申请</a></li>
+    <li><a href="#">新加坡留学申请</a></li>
+    <li><?php echo $applytip[0]['title']?></li>
    </ul>
   </div>
  </div>
  <!-- /top_title -->
  <div class="wraper">
-  <!-- contact_us -->
-  <div class="contact_us">
-  <h4>新加坡留学全程接申请</h4>
-   <!-- 这儿放内容吧~~~ -->
+  <!-- portfolio_sidebar -->
+  <div class="portfolio_sidebar">
+   <ul class="gallery">
+    <li>
+     
+     <div class="desc">
+      <h5><a href="#"><?php echo $applytip[0]['title']?></a> <span>by <?php echo $applytip[0]['author']?>  &nbsp;&nbsp;&nbsp;&nbsp;<?php echo date('m-d-y', $applytip[0]['ctime'])?></span></h5>
+      <?php echo $applytip[0]['content']?>
+      
+     </div>
+    </li>
+   </ul>
+   <!-- pager_nav -->
+   <div class="pager_nav">
+    
+   </div>
+   <!-- /pager_nav -->
   </div>
-  <!-- /contact_us -->
+  <!-- /portfolio_sidebar -->
   <!-- sidebar -->
   <div class="sidebar">
    <!-- most popular -->
