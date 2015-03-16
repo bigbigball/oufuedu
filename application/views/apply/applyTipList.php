@@ -31,6 +31,7 @@ $(function(){
 })
 </script>
 
+ <?php date_default_timezone_set("PRC"); ?>
 
 <div class="content_block">
  <!-- top_title -->
