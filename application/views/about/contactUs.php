@@ -65,9 +65,9 @@ $(function(){
    <br/>
    <h4>欢迎留言</h4>
    <form action="#" method="post" />
-    <p><label for="namet">姓名</label>(required)<br /><input id="namet" type="text" /></p>
+    <p><label for="namet">姓名</label><br /><input id="namet" type="text" /></p>
     <p><label for="mailt">E-mail</label>(required)<br /><input id="mailt" type="text" /></p>
-    <p><label for="website">主题</label><br /><input id="website" type="text" /></p>
+    <p><label for="website">电话</label>(required)<br /><input id="website" type="text" /></p>
     <p><label for="message">留言栏</label>(required)<br /><textarea id="message"></textarea></p>
     <p><input class="btn_m" type="submit" value="提交" /></p>
    </form>
@@ -89,13 +89,13 @@ $(function(){
                               <li>
                                  <i class="icon-phone"></i>
                                  <p>
-                                    <strong>Phone：</strong>+8618645140283
+                                    <strong>Phone：</strong>18645140283
                                  </p>
                               </li>
 							  <li>
                                  <i class="icon-pinterest-sign"></i>
                                  <p>
-                                    <strong>QQ：</strong>1524674308、1691951153
+                                    <strong>QQ：</strong>1691951153
                                  </p>
                               </li>
                               <li>

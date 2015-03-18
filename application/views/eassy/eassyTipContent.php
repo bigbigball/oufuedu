@@ -132,7 +132,7 @@ PS(留学个人陈述)是这些材料当中唯一一个由你来控制的，所�
 							  <li>
                                  <i class="icon-pinterest-sign"></i>
                                  <p>
-                                    <strong>QQ：</strong>1524674308、1691951153
+                                    <strong>QQ：</strong>1691951153
                                  </p>
                               </li>
                               <li>
