@@ -109,13 +109,13 @@ $(function(){
                               <li>
                                  <i class="icon-phone"></i>
                                  <p>
-                                    <strong>Phone：</strong>+8618645140283
+                                    <strong>Phone：</strong>18645140283
                                  </p>
                               </li>
 							  <li>
                                  <i class="icon-pinterest-sign"></i>
                                  <p>
-                                    <strong>QQ：</strong>1524674308、1691951153
+                                    <strong>QQ：</strong>1691951153
                                  </p>
                               </li>
                               <li>
