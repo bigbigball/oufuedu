@@ -13,7 +13,7 @@
 				src="<?php echo base_url().'style/' ?>images/sliders/home_slide_1.png"
 				class="wp1_3 slide1_bot" alt="" /> <span class="txt1">效率 质量 口碑 水准</span>
 			<span class="txt2">英国105所大学</span> <span class="txt3 short">可选择付押金免中介费申请，欧孚承诺入学后押金全额退款...</span>
-			<span class="txt4 txt4up"><a href="#" class="btn_l">立即申请！</a></span>
+			<span class="txt4 txt4up"><a href="<?php echo site_url().'/apply/appEvaluation'; ?>" class="btn_l">立即评估！</a></span>
 		</div>
 		<div class="oneByOne_item">
 			<img
@@ -21,7 +21,7 @@
 				class="wp1_3 wp1_left slide2_bot" alt="" /> <span
 				class="txt1  txt_right2">代理澳洲所有大学</span> <span
 				class="txt2  txt_right2">付押金</span> <span class="txt2  txt_right2">免中介费申请</span>
-			<span class="txt4 txt_right2 txt4up"><a href="#" class="btn_l">立即申请！</a></span>
+			<span class="txt4 txt_right2 txt4up"><a href="<?php echo site_url().'/apply/appEvaluation'; ?>" class="btn_l">立即评估！</a></span>
 		</div>
 
 		<div class="oneByOne_item">
@@ -29,7 +29,7 @@
 				src="<?php echo base_url().'style/' ?>images/sliders/home_slide_3.png"
 				class="wp1_3 slide2_bot" alt="" /> <span class="txt1">香港/新加坡硕士保录取项目</span>
 			<span class="txt2">欧孚留学</span> <span class="txt3">2015年香港/新加坡授课硕士保录取项目，签订保录取协议，不录取全额退款...</span>
-			<span class="txt4"><a href="#" class="btn_l">立即申请！</a></span>
+			<span class="txt4"><a href="<?php echo site_url().'/apply/appEvaluation'; ?>" class="btn_l">立即评估！</a></span>
 		</div>
 
 		<div class="oneByOne_item">
@@ -37,7 +37,7 @@
 				src="<?php echo base_url().'style/' ?>images/sliders/home_slide_4.png"
 				class="wp1_3 slide3_bot" alt="" /> <span class="txt1 ">留学移民两相宜</span>
 			<span class="txt2 ">加拿大</span> <span class="txt3 short">大专等学历留学加拿大后可实现移民...</span>
-			<span class="txt4 txt4up"><a href="#" class="btn_l">立即申请！</a></span>
+			<span class="txt4 txt4up"><a href="<?php echo site_url().'/apply/appEvaluation'; ?>" class="btn_l">立即评估！</a></span>
 		</div>
 
 	</div>

@@ -36,11 +36,11 @@ $(function(){
  <!-- top_title -->
  <div class="top_title">
   <div class="wraper">
-   <h2>文书写作技巧 <span>This is our favorite part of the site, our showcase!</span></h2>
+   <h2>留学申请技巧 <span>This is our favorite part of the site, our showcase!</span></h2>
    <ul>
     <li><a href="<?php echo base_url() ?>">首页</a></li>
-    <li><a href="#">留学文书</a></li>
-    <li><a href="#">文书写作小贴士</a></li>
+    <li><a href="#">留学申请</a></li>
+    <li><a href="#">留学申请小贴士</a></li>
     <li><?php echo $applytip[0]['title']?></li>
    </ul>
   </div>
