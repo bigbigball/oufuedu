@@ -569,13 +569,12 @@ function p($arr){
  * @param  [type] $msg [提示信息]
  * @return [type]      [description]
  */
-function suc($url, $msg){
+function success($url, $msg){
 	header('Content-Type:text/html;charset=utf-8');
 	$url = site_url($url);
 	echo "<script type='text/javascript'>alert('$msg');location.href='$url'</script>";
 	die;
 }
-
 /**
  * 错误提示函数
  * @param  [type] $msg [提示信息]

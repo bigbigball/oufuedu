@@ -35,7 +35,7 @@ $(function(){
         responsive:true,
         invertHoverEffect:false
     });
-})
+});
 </script>
 
 <div class="content_block">
@@ -64,11 +64,11 @@ $(function(){
    <br/>
    <br/>
    <h4>欢迎留言</h4>
-   <form action="#" method="post" />
-    <p><label for="namet">姓名</label><br /><input id="namet" type="text" /></p>
-    <p><label for="mailt">E-mail</label>(required)<br /><input id="mailt" type="text" /></p>
-    <p><label for="website">电话</label>(required)<br /><input id="website" type="text" /></p>
-    <p><label for="message">留言栏</label>(required)<br /><textarea id="message"></textarea></p>
+   <form action="<?php echo site_url('about/contactUs/addFeedback') ?>" method="POST"  enctype="multipart/form-data">
+    <p><label for="namet">主题</label><?php echo form_error('title','<span style="color:red">','</span>')?><br /><input id="title" name="title" type="text" value="<?php echo set_value('title')?>" /></p>
+    <p><label for="mailt">E-mail</label><?php echo form_error('email','<span style="color:red">','</span>')?><br /><input id="email" name="email" type="text" <?php echo set_value('email')?> /></p>
+    <p><label for="website">电话</label><?php echo form_error('mobile','<span style="color:red">','</span>')?><br /><input id="mobile" name="mobile" type="text" <?php echo set_value('mobile')?> /></p>
+    <p><label for="message">留言栏</label><?php echo form_error('content', '<span style="color:red">', '</span>')?><br /><textarea name="content" id="content"><?php echo set_value('content') ?></textarea></p>
     <p><input class="btn_m" type="submit" value="提交" /></p>
    </form>
   </div>
