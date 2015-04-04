@@ -127,14 +127,14 @@ $(function(){
 														<div class="step-pane active" id="step1">
 															<!--<h3 class="lighter block green">Enter the following information</h3>-->
 
-															<form class="form-horizontal" id="sample-form">
+															<form action="<?php echo site_url('apply/appEvaluation/addAppEvaluation')?>" class="form-horizontal" name="sample-form" id="outDestination" method="POST" enctype="multipart/form-data">
 																<div class="form-group has-warning">
 																	<label for="inputWarning"
 																		class="col-xs-12 col-sm-3 control-label no-padding-right">留学国家</label>
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputWarning" class="width-100" /> <i
+																			type="text" name="outcountry" id="inputWarning" class="width-100" /> <i
 																			class="icon-leaf"></i>
 																		</span>
 																	</div>
@@ -150,7 +150,7 @@ $(function(){
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputError" class="width-100" /> <i
+																			type="text" name="outmajor" id="inputError" class="width-100" /> <i
 																			class="icon-remove-sign"></i>
 																		</span>
 																	</div>
@@ -164,7 +164,7 @@ $(function(){
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputSuccess" class="width-100" /> <i
+																			type="text" name="altcountry" id="inputSuccess" class="width-100" /> <i
 																			class="icon-ok-sign"></i>
 																		</span>
 																	</div>
@@ -178,7 +178,7 @@ $(function(){
 
 																	<div class="col-xs-12 col-sm-5">
 																		<div class="input-group">
-																	<input class="form-control date-picker" id="id-date-picker-1" type="text" data-date-format="dd-mm-yyyy" />
+																	<input class="form-control date-picker" id="id-date-picker-1" type="text" name="outtime" data-date-format="dd-mm-yyyy" />
 																	<span class="input-group-addon">
 																		<i class="icon-calendar bigger-110"></i>
 																	</span>
@@ -193,12 +193,12 @@ $(function(){
 																		class="col-xs-12 col-sm-3 control-label no-padding-right">攻读学位</label>
 
 																	<div class="col-xs-12 col-sm-5">
-																		<span class="input-icon block"> <select
+																		<span class="input-icon block"> <select name="outdegree"
 																			class="form-control" id="form-field-select-1">
 																				<option value="">请选择</option>
-																				<option value="AL">大学</option>
-																				<option value="AK">硕士</option>
-																				<option value="AZ">博士</option>
+																				<option value="0">大学</option>
+																				<option value="1">硕士</option>
+																				<option value="2">博士</option>
 
 																		</select>
 																		</span>
@@ -462,14 +462,14 @@ $(function(){
 														</div>
 
 														<div class="step-pane" id="step2">
-															<form class="form-horizontal" id="sample-form">
+															<form class="form-horizontal" name="sample-form" id="proEvaluation">
 																<div class="form-group has-warning">
 																	<label for="inputWarning"
 																		class="col-xs-12 col-sm-3 control-label no-padding-right">就读院校</label>
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputWarning" class="width-100" /> <i
+																			type="text" name="incollege" id="inputWarning" class="width-100" /> <i
 																			class="icon-leaf"></i>
 																		</span>
 																	</div>
@@ -483,7 +483,7 @@ $(function(){
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputError" class="width-100" /> <i
+																			type="text" name="inmajor" id="inputError" class="width-100" /> <i
 																			class="icon-remove-sign"></i>
 																		</span>
 																	</div>
@@ -498,13 +498,13 @@ $(function(){
 																	<div class="col-xs-12 col-sm-5">
 																		<div>
 																			<label class="blue checkbox-inline"> <input
-																				name="gender" value="1" type="radio" class="ace" />
+																				name="ctype" value="0" type="radio" checked="checked" class="ace" />
 																				<span class="lbl"> 211大学</span>
 																			</label> <label class="blue  checkbox-inline"> <input
-																				name="gender" value="2" type="radio" class="ace" />
+																				name="ctype" value="1" type="radio" class="ace" />
 																				<span class="lbl"> 985大学</span>
 																			</label><label class="blue  checkbox-inline"> <input
-																				name="gender" value="2" type="radio" class="ace" />
+																				name="ctype" value="2" type="radio" class="ace" />
 																				<span class="lbl"> 其他</span>
 																			</label>
 																		</div>
@@ -520,7 +520,7 @@ $(function(){
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputInfo" class="width-100" /> <i
+																			type="text" name="gpa" id="inputInfo" class="width-100" /> <i
 																			class="icon-info-sign"></i>
 																		</span>
 																	</div>
@@ -533,7 +533,7 @@ $(function(){
 																		class="col-xs-12 col-sm-3 control-label no-padding-right">外语成绩</label>
 
 																	<div class="col-xs-12 col-sm-5">
-																		<span class="input-icon block"> <input type="text"
+																		<span class="input-icon block"> <input type="text" name="egpa"
 																			id="inputError2" class="width-100" /> <i
 																			class="icon-remove-sign red"></i>
 																		</span>
@@ -548,14 +548,14 @@ $(function(){
 														<div class="step-pane" id="step3">
 
 
-															<form class="form-horizontal" id="sample-form">
-																<div class="form-group has-warning">
+															<form class="form-horizontal" name="sample-form" id="contactInfo">
+																<div class="form-group has-warning">sample-form
 																	<label for="inputWarning"
 																		class="col-xs-12 col-sm-3 control-label no-padding-right">姓名</label>
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputWarning" class="width-100" /> <i
+																			type="text" name="username" id="inputWarning" class="width-100" /> <i
 																			class="icon-leaf"></i>
 																		</span>
 																	</div>
@@ -570,10 +570,10 @@ $(function(){
 																	<div class="col-xs-12 col-sm-5">
 																		<div>
 																			<label class="blue checkbox-inline"> <input
-																				name="gender" value="1" type="radio" class="ace" />
+																				name="gender" value="0" type="radio" checked="checked" class="ace" />
 																				<span class="lbl"> 男</span>
 																			</label> <label class="blue  checkbox-inline"> <input
-																				name="gender" value="2" type="radio" class="ace" />
+																				name="gender" value="1" type="radio" class="ace" />
 																				<span class="lbl"> 女</span>
 																			</label>
 																		</div>
@@ -587,11 +587,11 @@ $(function(){
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="input-icon block"> <select
-																			class="form-control" id="form-field-select-1">
+																			class="form-control" name="maxdegree" id="form-field-select-1">
 																				<option value="">请选择</option>
-																				<option value="AL">高中</option>
-																				<option value="AK">大学</option>
-																				<option value="AZ">硕士</option>
+																				<option value="0">高中</option>
+																				<option value="1">大学</option>
+																				<option value="2">硕士</option>
 
 																		</select>
 																		</span>
@@ -606,7 +606,7 @@ $(function(){
 
 																	<div class="col-xs-12 col-sm-5">
 																		<span class="block input-icon input-icon-right"> <input
-																			type="text" id="inputInfo" class="width-100" /> <i
+																			type="text" name="email" id="inputInfo" class="width-100" /> <i
 																			class="icon-info-sign"></i>
 																		</span>
 																	</div>
@@ -619,7 +619,7 @@ $(function(){
 																		class="col-xs-12 col-sm-3 control-label no-padding-right">手机号码</label>
 
 																	<div class="col-xs-12 col-sm-5">
-																		<span class="input-icon block"> <input type="text"
+																		<span class="input-icon block"> <input type="text" name="mobile"
 																			id="inputError2" class="width-100" /> <i
 																			class="icon-remove-sign red"></i>
 																		</span>
@@ -647,7 +647,8 @@ $(function(){
 															<i class="icon-arrow-left"></i> 上一步
 														</button>
 
-														<button class="btn btn-success btn-next" data-last="提交 ">
+														<button class="btn btn-success btn-next" data-last="提
+														交 ">
 															下一步 <i class="icon-arrow-right icon-on-right"></i>
 														</button>
 													</div>
@@ -710,7 +711,7 @@ $(function(){
 													<i class="icon-arrow-left"></i> 上一步
 												</button>
 
-												<button class="btn btn-success btn-sm btn-next"
+												<button class="btn btn-success btn-sm btn-next" id="last-submit"
 													data-last="提交 ">
 													下一步 <i class="icon-arrow-right icon-on-right"></i>
 												</button>
@@ -790,6 +791,17 @@ $(function(){
 						if(!$('#validation-form').valid()) return false;
 					}
 				}).on('finished', function(e) {
+					$.ajax({ 
+				        url: 'http://localhost/oufuedu/index.php/apply/appEvaluation/addAppEvaluation',
+				        data: $("#outDestination, #contactInfo, #proEvaluation").serialize(), 
+				        type: 'POST', 				        
+				        success: function(result){
+					        //alert(result);
+					        },
+					    error:function(result){
+						        //alert("cuowu");				        
+						        },
+				    });
 					bootbox.dialog({
 						message: "感谢支持欧孚留学! 您的留学评估信息已已提交!", 
 						buttons: {
@@ -798,7 +810,7 @@ $(function(){
 								"className" : "btn-sm btn-primary"
 							}
 						}
-					});
+					});	
 				}).on('stepclick', function(e){
 					//return false;//prevent clicking on steps
 				});

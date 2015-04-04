@@ -68,4 +68,41 @@ $config = array(
 		),
 				
 	),
+		'apply_evaluation' => array(
+				array(
+						'field' => 'fcountry',
+						'label' => '留学国家',
+						'rules' => 'required',
+				),
+				array(
+						'field' => 'major',
+						'label' => '留学专业',
+						'rules' => 'required',
+				),
+		
+		),
+		
+		'contact1' => array(
+				array(
+						'field' => 'title',
+						'label' => '主题',
+						'rules' => 'required',
+				),
+				array(
+						'field' => 'email',
+						'label' => 'email',
+						'rules' => 'required|valid_email',
+				),
+				array(
+						'field' => 'mobile',
+						'label' => '电话',
+						'rules' => 'required',
+				),
+				array(
+						'field' => 'content',
+						'label' => '留言',
+						'rules' => 'required',
+				),
+		
+		),
 );

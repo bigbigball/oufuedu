@@ -31,17 +31,17 @@ $(function(){
 })
 </script>
 
- <?php date_default_timezone_set("PRC"); ?>
+
 <div class="content_block">
  <!-- top_title -->
  <div class="top_title">
   <div class="wraper">
-   <h2>留学申请技巧 <span>This is our favorite part of the site, our showcase!</span></h2>
+   <h2>成功申请案例<span><?php echo $case[0]['academy']?>成功申请案例~~~！</span></h2>
    <ul>
     <li><a href="<?php echo base_url() ?>">首页</a></li>
-    <li><a href="#">留学申请</a></li>
-    <li><a href="#">留学申请小贴士</a></li>
-    <li><?php echo $applytip[0]['title']?></li>
+    <li><a href="<?php echo site_url().'/apply/appProcess'; ?>">成功案例</a></li>
+    <li><a href="#">申请案例</a></li>
+    <li><?php echo $case[0]['case_title']?></li>
    </ul>
   </div>
  </div>
@@ -53,14 +53,11 @@ $(function(){
     <li>
      
      <div class="desc">
-      <h5><a href="single_full.html"><?php echo $applytip[0]['title']?></a> <span>by <?php echo $applytip[0]['author']?>  &nbsp;&nbsp;&nbsp;&nbsp;<?php echo date('m-d-y', $applytip[0]['ctime'])?></span></h5>
-      <?php echo $applytip[0]['content']?>
+      <h5><a href="#"><?php echo $case[0]['case_title']?></a> <span>by <?php echo $case[0]['author']?>  &nbsp;&nbsp;&nbsp;&nbsp;<?php echo date('m-d-y', $case[0]['ctime'])?></span></h5>
+      <?php echo $case[0]['case_content']?>
       
      </div>
     </li>
-    
-	
-	
    </ul>
    <!-- pager_nav -->
    <div class="pager_nav">
@@ -69,7 +66,7 @@ $(function(){
    <!-- /pager_nav -->
   </div>
   <!-- /portfolio_sidebar -->
- <!-- sidebar -->
+  <!-- sidebar -->
   <div class="sidebar">
    <!-- most popular -->
    <div class="address_widget">
@@ -79,19 +76,19 @@ $(function(){
                               <li>
                                  <i class="icon-map-marker"></i>
                                  <p>
-                                    <strong>Address：</strong>中国黑龙江哈尔滨南岗区和兴路和兴商厦B座1204室
+                                    <strong>Address：</strong> 中国黑龙江哈尔滨南岗区和兴路和兴商厦B座1204室
                                  </p>
                               </li>
                               <li>
                                  <i class="icon-phone"></i>
                                  <p>
-                                    <strong>Phone：</strong>18645140283
+                                    <strong>Phone：</strong> +8618645140283
                                  </p>
                               </li>
 							  <li>
                                  <i class="icon-pinterest-sign"></i>
                                  <p>
-                                    <strong>QQ：</strong>1691951153
+                                    <strong>QQ：</strong> 1524674308、1691951153
                                  </p>
                               </li>
                               <li>
@@ -177,8 +174,8 @@ $(function(){
   </div>
   <!-- /sidebar -->
  </div>
-
 </div>
+
 
 
 

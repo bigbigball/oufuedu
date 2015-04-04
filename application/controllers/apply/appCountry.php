@@ -5,8 +5,6 @@
 class AppCountry extends CI_Controller{
 	/*  默认首页显示方法*/
 	public function index(){
-		//echo 'hello';
-		//echo base_url();
 		$this->load->view('apply/country/usa');
 	}
 	/**
@@ -23,7 +21,6 @@ class AppCountry extends CI_Controller{
 	 */
 	public function appKcountry(){ 
 		$country = $this->uri->segment(4);
-		//$table = $country;
 		$data ['applytip'] = $this->app->appCountryList ($country);
 		if(empty($data['applytip']))
 			error('数据缺失，请联系管理员！');

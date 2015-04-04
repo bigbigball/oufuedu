@@ -93,9 +93,9 @@ a, div, h1, h2, h3, span, em, i {
 							<li><a href="<?php echo site_url().'/eassy/eassyTipList'; ?>">写作小贴士</a></li>
 
 						</ul></li>
-					<li><a href="<?php echo site_url().'/apply/appExaList'; ?>">成功案例</a>
+					<li><a href="<?php echo site_url().'/case/appCaseList'; ?>">成功案例</a>
 						<ul>
-							<li><a href="<?php echo site_url().'/apply/appExaList'; ?>">申请案例</a></li>
+							<li><a href="<?php echo site_url().'/case/appCaseList'; ?>">申请案例</a></li>
 						</ul></li>
 					<li><a href="<?php echo site_url().'/about/aboutUs'; ?>">关于我们</a>
 						<ul>
