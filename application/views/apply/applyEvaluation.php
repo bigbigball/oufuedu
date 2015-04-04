@@ -796,21 +796,28 @@ $(function(){
 				        data: $("#outDestination, #contactInfo, #proEvaluation").serialize(), 
 				        type: 'POST', 				        
 				        success: function(result){
-					        //alert(result);
+					        		bootbox.dialog({
+										message: "感谢支持欧孚留学! 您的留学评估信息已提交!", 
+										buttons: {
+											"success" : {
+												"label" : "OK",
+												"className" : "btn-sm btn-primary"
+											}
+										}
+									});
 					        },
 					    error:function(result){
-						        //alert("cuowu");				        
-						        },
-				    });
-					bootbox.dialog({
-						message: "感谢支持欧孚留学! 您的留学评估信息已已提交!", 
-						buttons: {
-							"success" : {
-								"label" : "OK",
-								"className" : "btn-sm btn-primary"
-							}
-						}
-					});	
+					    		   bootbox.dialog({
+										message: "您的输入有误，请重新输入提交！", 
+										buttons: {
+											"danger" : {
+											"label" : "Error",
+											"className" : "btn-sm btn-danger"
+											}
+										}
+									});			        
+						     },
+				    });		
 				}).on('stepclick', function(e){
 					//return false;//prevent clicking on steps
 				});

@@ -5,8 +5,6 @@
 class AppEvaluation extends CI_Controller{
 	/*  默认首页显示方法*/
 	public function index(){
-		//echo 'hello';
-		//echo base_url();
 		$this->load->view('apply/applyEvaluation');
 	}
 	
@@ -18,14 +16,14 @@ class AppEvaluation extends CI_Controller{
 		$this->load->model ( 'appevaluate_model', 'eva' );
 	}
 	
-	// 添加用户评估资料
+	// 添加留学评估资料
 	public function addAppEvaluation() {
 		// 载入表单验证类
 		$this->load->library ( 'form_validation' );
 		// 执行验证
-		$status = $this->form_validation->run ( 'apply_evaluation' );
+		$status = $this->form_validation->run ( 'appevaluation' );
 	
-		//if ($status) {
+		if ($status) {
 			// 操作model层
 			$data = array (
 					'outcountry' => $this->input->post ( 'outcountry' ),
@@ -53,11 +51,10 @@ class AppEvaluation extends CI_Controller{
 			
 			success ( '/apply/appEvaluation', '留学资料添加成功！' );
 			
-		/*	
 		} else {
 			// 重载
 			$this->load->helper ( 'form' );
 			$this->load->view ( '/apply/appEvaluation', $data);
-		}*/
+		}
 	}
 }
